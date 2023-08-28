@@ -25,7 +25,7 @@ export const StyledInput = styled.input`
 
 export const InputComponent = styled.input`
   width: 260.55px;
-  height: 50.4px;
+  height: 30.4px;
   padding: 10px 23px 10px 23px;
   border-radius: 8px;
   border: 0.5px;

@@ -30,6 +30,7 @@ interface PhoneNumberInputProps {
 const PhoneNumberInput: React.FC<PhoneNumberInputProps> = ({
   value,
   onChange,
+  placeholder,
 }) => {
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
     const inputValue = e.target.value.replace(/\D/g, '')
@@ -45,7 +46,7 @@ const PhoneNumberInput: React.FC<PhoneNumberInputProps> = ({
         value={value}
         onChange={handleInputChange}
         required
-        placeholder="Número de Celular"
+        placeholder={placeholder}
         pattern="[0-9]{10,15}"
       />
     </StyledInputWrapper>
