@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const AppContainer = styled.div`
   background-color: #241929;
-  padding: 20px;
+  padding: 0px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     padding: 10px;
   }
 `
@@ -14,7 +14,7 @@ export const NavMenu = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     flex-direction: column;
     align-items: center;
   }
@@ -24,7 +24,7 @@ export const LinksContainer = styled.div`
   display: flex;
   gap: 20px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     gap: 10px;
     margin-top: 10px;
   }
@@ -47,7 +47,7 @@ export const NavLink = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     button {
       padding: 1.5px 1.5rem;
       font-size: 14px;
@@ -59,11 +59,9 @@ export const LogoImage = styled.img`
   display: flex;
   position: relative;
   left: -20rem;
-  width: 80px;
-  height: auto;
   width: 128px;
   height: 84px;
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 50px;
     height: 35px;
     display: flex;
@@ -74,15 +72,13 @@ export const LogoImage = styled.img`
 `
 
 export const MoonImage = styled.img`
-  width: 40px;
-  height: auto;
   display: flex;
   position: relative;
   left: 20rem;
   width: 128px;
   height: 84px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     display: none;
   }
 `
