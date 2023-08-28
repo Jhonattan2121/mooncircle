@@ -1,9 +1,9 @@
 * {
-  margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: 0;
-  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+    font-family: Inter, sans-serif;
   border: none;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px auto;
   
 }
