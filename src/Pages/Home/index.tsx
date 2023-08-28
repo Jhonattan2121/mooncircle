@@ -39,24 +39,22 @@ const Home = ({ id }: propsHome) => {
         <h4>O seu próximo match é aqui!</h4>
         <p>
           Segurança para viver e liberdade para ser. Mergulhe no Universo Moon
-          Circle. Quer participar? Entre na fila de embarque
+          Circle.
         </p>
+        <p className="partiparP">Quer participar? </p>
+        <p className="filap">Entre na fila de embarque</p>
       </div>
       <div className="Input">
-        <Input
-          value={name}
-          onChange={handleNameChange}
-          placeholder="Digite seu nome"
-        />
+        <Input value={name} onChange={handleNameChange} placeholder="Nome" />
         <Input
           value={email}
           onChange={handleEmailChange}
-          placeholder="Digite seu email"
+          placeholder="E-mail"
         />
         <PhoneNumberInput
           value={whatsapp}
           onChange={handleWhatsappChange}
-          placeholder="Digite seu número de WhatsApp"
+          placeholder="WhatsApp"
         />
       </div>
       <div className="Confirm">
