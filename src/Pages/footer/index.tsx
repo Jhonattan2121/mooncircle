@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <div className="FooterSectionOne">
-        <img src={MoonCircle} alt="Footer-Imagem" />
+        <img src={MoonCircle} alt="" className="Footer-Imagem" />
         <p>Copyright &copy; 2023 </p>
         <p> 2023 Todos os direitos reservados</p>
 
@@ -27,16 +27,16 @@ const Footer = () => {
 
       <div className="FooterSectionTwo">
         <h1 className="FooterTitleTwo">Páginas</h1>
-        <Link className="FooterLink" to="/">
+        <Link className="Home-FooterLink" to="/">
           <p>Home</p>
         </Link>
-        <Link className="FooterLink" to="/saiba-mais">
+        <Link className="SaibaMais-FooterLink" to="/saiba-mais">
           <p>Saiba Mais</p>
         </Link>
-        <Link className="FooterLink" to="/parcerias">
+        <Link className="Parcerias-FooterLink" to="/parcerias">
           <p>Parcerias</p>
         </Link>
-        <Link className="FooterLink" to="/blog">
+        <Link className="Blog-FooterLink" to="/blog">
           <p>Blog</p>
         </Link>
       </div>

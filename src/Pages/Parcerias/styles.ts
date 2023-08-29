@@ -185,8 +185,8 @@ export const ContainerParcerias = styled.div`
   @media (max-width: ${mobileBreakpoint}) {
     display: flex;
     position: relative;
-    top: 65rem;
-    left: -0.5rem;
+    top: 82rem;
+    left: 2.5rem;
     align-items: center;
     justify-content: center;
     color: white;
@@ -202,9 +202,9 @@ export const ContainerParcerias = styled.div`
       display: flex;
       position: relative;
       top: -69rem;
-      left: 80.7rem;
+      left: 81.7rem;
       width: 21pc;
-      font-size: 39px;
+      font-size: 31px;
       font-weight: 600;
       line-height: 44px;
       letter-spacing: 0em;
@@ -255,7 +255,7 @@ export const ContainerParcerias = styled.div`
     .ContainerTexts {
       display: flex;
       position: relative;
-      top: -10rem;
+      top: -7rem;
       left: -46rem;
 
       h1 {
@@ -284,7 +284,7 @@ export const ContainerParcerias = styled.div`
         color: white;
         display: flex;
         position: relative;
-        top: -33.5rem;
+        top: -27.5rem;
         left: 49.15rem;
       }
     }
@@ -299,27 +299,27 @@ export const ContainerParcerias = styled.div`
         display: flex;
         position: relative;
         top: -17rem;
-        left: 37.5rem;
+        left: 36.5rem;
       }
       .SegundoInput {
         display: flex;
         position: relative;
-        top: -12rem;
-        left: 20.3rem;
+        top: -12.5rem;
+        left: 16.3rem;
       }
       button {
         width: 223px;
-        height: 50px;
-        padding: 8px 0px 8px 43px;
+        height: 66px;
+        padding: 8px 0px 8px 45px;
         border-radius: 100px;
         gap: 10px;
         background: #641978;
         box-shadow: 0px 10px 100px 0px #00000040;
 
         p {
-          width: 154px;
+          width: 185px;
           height: 32px;
-          font-size: 20px;
+          font-size: 17px;
           font-weight: 600;
           line-height: 32px;
           letter-spacing: 0em;
@@ -334,15 +334,15 @@ export const ContainerParcerias = styled.div`
       .ButtonForm {
         display: flex;
         position: relative;
-        left: 3.9rem;
-        top: -5rem;
+        left: -1.1rem;
+        top: -8.5rem;
       }
 
       .containerprojetos {
         .Parceiroh3 {
           width: 424px;
           height: 2px;
-          font-size: 40px;
+          font-size: 30px;
           font-weight: 600;
           line-height: 55px;
           letter-spacing: 0em;
@@ -351,7 +351,7 @@ export const ContainerParcerias = styled.div`
           display: flex;
           position: relative;
           top: -1rem;
-          left: -12rem;
+          left: -25rem;
         }
 
         .email {
@@ -365,8 +365,8 @@ export const ContainerParcerias = styled.div`
           color: white;
           display: flex;
           position: relative;
-          top: 7rem;
-          left: -12rem;
+          top: 2rem;
+          left: -19rem;
         }
       }
     }

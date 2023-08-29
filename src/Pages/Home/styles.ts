@@ -19,7 +19,7 @@ export const Container = styled.div`
       position: relative;
       width: 400px;
       height: 400px;
-      top: -47rem;
+      top: -45rem;
       left: 25rem;
       padding: 0;
     }
@@ -115,14 +115,14 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 7rem;
+    top: 10rem;
     left: -5rem;
     .Logo-Home {
       display: flex;
       position: relative;
       width: 250px;
       height: 250px;
-      top: -58.5rem;
+      top: -57.5rem;
       left: 7rem;
       padding: 0;
     }

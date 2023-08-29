@@ -8,7 +8,7 @@ export const Container = styled.div`
   display: flex;
   width: 59%;
   height: 73%;
-  top: -17rem;
+  top: -12rem;
   left: -31rem;
   gap: 8px;
 

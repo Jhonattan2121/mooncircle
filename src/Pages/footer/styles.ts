@@ -3,7 +3,7 @@ const mobileBreakpoint = '428px'
 
 export const FooterContainer = styled.footer`
   display: flex;
-  position: static;
+  position: relative;
   justify-content: space-around;
   align-items: center;
   padding: 30px;
@@ -56,8 +56,9 @@ export const FooterContainer = styled.footer`
     justify-content: space-between;
     padding: 20px;
     position: relative;
-    top: 67rem;
+    top: 80rem;
     left: 2rem;
+
     p {
       color: white;
     }
@@ -70,11 +71,20 @@ export const FooterContainer = styled.footer`
       position: relative;
       left: 1rem;
 
+      .Footer-Imagem {
+        display: flex;
+        position: relative;
+        left: -8rem;
+        top: -1rem;
+      }
+
       .ContainerIMG {
+        display: flex;
+        position: relative;
         width: 104px;
         height: 24px;
-        top: 232px;
-        left: 143px;
+        top: -1rem;
+        left: -8.5rem;
         gap: 16px;
         color: white;
         .img {
@@ -96,7 +106,41 @@ export const FooterContainer = styled.footer`
       flex-direction: initial;
       position: relative;
       left: -22rem;
-      top: 13.5rem;
+      top: 8.5rem;
+
+      .Home-FooterLink {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        position: relative;
+        left: -5rem;
+        top: 1.5rem;
+      }
+      .SaibaMais-FooterLink {
+        width: 8rem;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        position: relative;
+        left: -1.5rem;
+        top: 2rem;
+      }
+      .Parcerias-FooterLink {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        position: relative;
+        left: -0.4rem;
+        top: 3rem;
+      }
+      .Blog-FooterLink {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        position: relative;
+        left: -5.5rem;
+        top: 5rem;
+      }
     }
     .FooterTitleTwo {
       color: white;
@@ -109,19 +153,21 @@ export const FooterContainer = styled.footer`
       line-height: 1rem;
       flex-direction: initial;
       position: relative;
-      left: -44.5rem;
-      top: 25.5rem;
+      left: -31.5rem;
+      top: 21.5rem;
 
       .email {
         display: flex;
         position: relative;
-        top: -2rem;
+        top: -0.5rem;
+        left: 2rem;
       }
 
       .number {
         display: flex;
         position: relative;
-        top: -4.5rem;
+        top: -0.5rem;
+        left: 1.2rem;
       }
     }
 
@@ -136,8 +182,8 @@ export const FooterContainer = styled.footer`
       line-height: 1rem;
       flex-direction: initial;
       position: relative;
-      left: -52.5rem;
-      top: 30.5rem;
+      left: -55.5rem;
+      top: 37.5rem;
     }
     .FooterTitleFour {
       color: white;
