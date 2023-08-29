@@ -1,9 +1,15 @@
 * {
+  margin: 0px;
   padding: 0px;
+  border: 0px;
     font-family: Inter, sans-serif;
   border: none;
   -webkit-box-align: center;
   align-items: center;
   margin: 0px auto;
   
+}
+
+body {
+  overflow-x: hidden;
 }
