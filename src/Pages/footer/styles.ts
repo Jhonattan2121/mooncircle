@@ -1,12 +1,16 @@
 import { styled } from 'styled-components'
-const mobileBreakpoint = '500px'
+const mobileBreakpoint = '428px'
 
 export const FooterContainer = styled.footer`
   display: flex;
+  position: static;
   justify-content: space-around;
   align-items: center;
   padding: 30px;
   color: white;
+
+  top: 16rem;
+
   p {
     color: white;
   }

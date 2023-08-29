@@ -1,13 +1,15 @@
 import styled from 'styled-components'
-const mobileBreakpoint = '600px'
+const mobileBreakpoint = '425px'
 export const ContainerParcerias = styled.div`
   display: flex;
   position: relative;
-  top: 4rem;
-  left: -8rem;
+  top: 28rem;
+  left: -2rem;
   align-items: center;
   justify-content: center;
   color: white;
+  width: 66%;
+  height: 100%;
   .ContainerText {
     display: flex;
     position: relative;
@@ -16,13 +18,12 @@ export const ContainerParcerias = styled.div`
   .TextParceiros {
     display: flex;
     position: relative;
-    top: -70rem;
-    left: 119rem;
+    top: -68.5rem;
+    left: 120.5rem;
     width: 17pc;
-    font-family: Museo Sans;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 600;
-    line-height: 44px;
+    line-height: 38px;
     letter-spacing: 0em;
     text-align: center;
     color: white;
@@ -30,8 +31,7 @@ export const ContainerParcerias = styled.div`
   .TextP {
     width: 390px;
     height: 24px;
-    font-family: Museo Sans;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
@@ -40,7 +40,7 @@ export const ContainerParcerias = styled.div`
     display: flex;
     position: relative;
     top: -67rem;
-    left: 98.5rem;
+    left: 99.5rem;
   }
   .ContainerImages {
     display: flex;
@@ -74,24 +74,21 @@ export const ContainerParcerias = styled.div`
     top: -10rem;
     left: -47rem;
     h1 {
-      width: 481px;
-      height: 77px;
-      font-family: Museo Sans;
-      font-size: 32px;
+      width: 482px;
+      font-size: 28px;
       font-weight: 600;
-      line-height: 44px;
+      line-height: 30px;
       letter-spacing: 0em;
       text-align: left;
       color: white;
       display: flex;
       position: relative;
-      top: -36rem;
-      left: 78rem;
+      top: -36.6rem;
+      left: 76rem;
     }
     p {
       width: 431px;
       height: 80px;
-      font-family: Inter;
       font-size: 16px;
       font-weight: 400;
       line-height: 20px;
@@ -101,14 +98,14 @@ export const ContainerParcerias = styled.div`
       display: flex;
       position: relative;
       top: -30.5rem;
-      left: 48rem;
+      left: 46rem;
     }
   }
   .ContainerInput {
     display: flex;
     position: relative;
-    top: -10rem;
-    left: -55rem;
+    top: -11rem;
+    left: -58rem;
     gap: 16px;
     .PrimeiroInput {
       display: flex;
@@ -120,7 +117,7 @@ export const ContainerParcerias = styled.div`
       display: flex;
       position: relative;
       top: -20rem;
-      left: 12.8rem;
+      left: 9.8rem;
     }
     button {
       width: 223px;
@@ -131,10 +128,9 @@ export const ContainerParcerias = styled.div`
       background: #641978;
       box-shadow: 0px 10px 100px 0px #00000040;
       p {
-        width: 154px;
+        width: 177px;
         height: 32px;
-        font-family: Museo Sans;
-        font-size: 20px;
+        font-size: 17px;
         font-weight: 600;
         line-height: 32px;
         letter-spacing: 0em;
@@ -142,25 +138,24 @@ export const ContainerParcerias = styled.div`
         color: #ffffff;
       }
       .ImageGrafismo {
-        width: 470px;
-        height: 470px;
+        width: 350px;
+        height: 350px;
         display: flex;
         position: relative;
-        top: -25rem;
-        left: -38rem;
+        top: -21rem;
+        left: -32rem;
       }
     }
     .ButtonForm {
       display: flex;
       position: relative;
-      left: -3rem;
+      left: -8rem;
       top: -16rem;
     }
     .containerprojetos {
       .Parceiroh3 {
-        width: 500px;
-        font-family: Museo Sans;
-        font-size: 46px;
+        width: 530px;
+        font-size: 41px;
         font-weight: 600;
         line-height: 44px;
         letter-spacing: 0em;
@@ -168,24 +163,23 @@ export const ContainerParcerias = styled.div`
         color: white;
         display: flex;
         position: relative;
-        top: -6rem;
-        left: -38rem;
+        top: -9rem;
+        left: -46rem;
       }
     }
     .email {
-      width: 34rem;
+      width: 44rem;
       height: 38px;
-      font-family: Inter;
-      font-size: 30px;
+      font-size: 25px;
       font-weight: 400;
       line-height: 20px;
-      letter-spacing: 0em;
+      letter-spacing: 0.1em;
       text-align: left;
       color: white;
       display: flex;
       position: relative;
-      top: -5rem;
-      left: -40rem;
+      top: -9rem;
+      left: -44rem;
     }
   }
   @media (max-width: ${mobileBreakpoint}) {
@@ -210,7 +204,6 @@ export const ContainerParcerias = styled.div`
       top: -69rem;
       left: 80.7rem;
       width: 21pc;
-      font-family: Museo Sans;
       font-size: 39px;
       font-weight: 600;
       line-height: 44px;
@@ -221,7 +214,6 @@ export const ContainerParcerias = styled.div`
     .TextP {
       width: 313px;
       height: 24px;
-      font-family: Museo Sans;
       font-size: 18px;
       font-weight: 400;
       line-height: 24px;
@@ -269,7 +261,6 @@ export const ContainerParcerias = styled.div`
       h1 {
         width: 304px;
         height: 77px;
-        font-family: Museo Sans;
         font-size: 26px;
         font-weight: 600;
         line-height: 44px;
@@ -285,7 +276,6 @@ export const ContainerParcerias = styled.div`
       p {
         width: 300px;
         height: 80px;
-        font-family: Inter;
         font-size: 23px;
         font-weight: 400;
         line-height: 32px;
@@ -329,7 +319,6 @@ export const ContainerParcerias = styled.div`
         p {
           width: 154px;
           height: 32px;
-          font-family: Museo Sans;
           font-size: 20px;
           font-weight: 600;
           line-height: 32px;
@@ -353,7 +342,6 @@ export const ContainerParcerias = styled.div`
         .Parceiroh3 {
           width: 424px;
           height: 2px;
-          font-family: Museo Sans;
           font-size: 40px;
           font-weight: 600;
           line-height: 55px;
@@ -369,7 +357,6 @@ export const ContainerParcerias = styled.div`
         .email {
           width: 34rem;
           height: 38px;
-          font-family: Inter;
           font-size: 30px;
           font-weight: 400;
           line-height: 30px;
