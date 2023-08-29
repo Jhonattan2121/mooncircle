@@ -170,7 +170,6 @@ export const FooterContainer = styled.footer`
         left: 1.2rem;
       }
     }
-
     .FooterTitleTree {
       color: white;
     }
