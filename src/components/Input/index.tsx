@@ -60,7 +60,6 @@ interface InputEstaProps {
 }
 
 const InputNomeEstabelecimento: React.FC<InputEstaProps> = ({
-  placeholder,
   onChange,
   value,
 }) => {
@@ -83,10 +82,7 @@ interface PropsInput {
   value: string
 }
 
-const InputNomeInstagram: React.FC<PropsInput> = ({
-  placeholder,
-  onChange,
-}) => {
+const InputNomeInstagram: React.FC<PropsInput> = ({ onChange }) => {
   return (
     <StyledInputWrapper>
       <InputComponent

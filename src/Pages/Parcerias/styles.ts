@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-const mobileBreakpoint = '425px'
+const mobileBreakpoint = '428px'
 export const ContainerParcerias = styled.div`
   display: flex;
   position: relative;
